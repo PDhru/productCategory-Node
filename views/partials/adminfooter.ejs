@@ -1,0 +1,54 @@
+
+<!-- latest js -->
+ <script src="/js/jquery-3.6.0.min.js"></script>
+
+ <!-- Bootstrap js -->
+ <script src="/js/bootstrap/bootstrap.bundle.min.js"></script>
+
+ <!-- feather icon js -->
+ <script src="/js/icons/feather-icon/feather.min.js"></script>
+ <script src="/js/icons/feather-icon/feather-icon.js"></script>
+
+ <!-- scrollbar simplebar js -->
+ <script src="/js/scrollbar/simplebar.js"></script>
+ <script src="/js/scrollbar/custom.js"></script>
+
+ <!-- Sidebar js -->
+ <script src="/js/config.js"></script>
+
+ <!-- bootstrap tag-input js -->
+ <script src="/js/bootstrap-tagsinput.min.js"></script>
+ <script src="/js/sidebar-menu.js"></script>
+
+ <!-- customizer js -->
+ <script src="/js/customizer.js"></script>
+
+ <!--Dropzon js -->
+ <script src="/js/dropzone/dropzone.js"></script>
+ <script src="/js/dropzone/dropzone-script.js"></script>
+
+ <!-- Plugins js -->
+ <script src="/js/notify/bootstrap-notify.min.js"></script>
+ <script src="/js/notify/index.js"></script>
+
+ <!-- select2 js -->
+ <script src="/js/select2.min.js"></script>
+ <script src="/js/select2-custom.js"></script>
+
+ <!-- sidebar effect -->
+ <script src="/js/sidebareffect.js"></script>
+
+ <!-- Theme js -->
+ <script src="/js/script.js"></script>
+ <script>
+    const toastTrigger = document.getElementById('liveToastBtn')
+    const toastLiveExample = document.getElementById('liveToast')
+
+    if (toastTrigger) {
+        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+        toastTrigger.addEventListener('click', () => {
+            toastBootstrap.show()
+        })
+    }
+</script>
+</body></html>
